@@ -1,0 +1,21 @@
+{
+  "name": "eleventy-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "concurrently": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "moment": "^2.29.1"
+  }
+}
